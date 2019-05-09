@@ -1,0 +1,568 @@
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+	
+	color: #fff;
+	text-transform: uppercase;
+    font-size:16px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	
+    color:#10bc10f5;
+}
+.navbar-default .navbar-nav > li > a:focus{
+    color: #fff;
+}
+
+
+.logo {
+	margin-top: -10px;
+}
+#slider{
+	background:url(../img/hhh.jpg);
+}
+.item{
+	margin:150px  0px;
+	color:black;
+	margin-top: none;
+    margin-bottom: none;
+}
+.item h3 {
+	font-size: 40px;
+	/* margin: 0px; */
+}.item h3 {
+	font-size: 40px;
+	/* margin: 0px; */
+}.item h3 {
+	font-size: 40px;
+	margin: 0px;
+}
+.item h2{
+	font-size:100px;
+	border:2px solid #fff;
+	max-width:670px;
+	margin:0 auto;
+	padding:10px;
+	
+}
+.item h4 {
+	font-size: 36px;
+	margin: 0px;
+}
+.item span{
+	color:red;
+}
+.carousel-indicators li{
+	background:#1ae65d;
+	width:15px;
+	height:15px;
+	border:1px solid #1ae65d;
+	margin:0px;
+}
+.carousel-indicators .active{
+	background:yellow;
+	border:1px solid yellow;
+	width:15px;
+	height:15px;
+}
+.slider-overlay{
+	width:100%;
+	background:rgba(0,0,0, .2);
+}
+#about{
+	color:#030303;
+	padding:100px;
+
+}
+.about-top h2{
+	text-transform:uppercase;
+	font-weight:bold ;
+	font-size:36px;
+}
+.about-top p{
+	font-size:16px;
+	max-width:700px;
+	margin:0 auto;
+	margin-bottom:60px;
+	
+}
+.about-content{}
+
+.about-icon i{
+	font-size:35px;
+}
+.about-icon h2{
+	font-size:24px;
+	text-transform:uppercase;
+	font-weight:bold ;
+}
+.about-icon p{
+	font-size:14px;
+}
+.about-icon:hover i, .about-icon:hover h2 {
+	color: rgba(69, 255, 11, 0.82);
+}
+
+
+.servise-top h2{
+	text-transform:uppercase;
+	font-weight:bold ;
+	font-size:36px;
+}
+.servise-top p{
+	font-size:16px;
+	max-width:700px;
+	margin:0 auto;
+	margin-bottom:60px;
+	
+}
+#servise{
+background:#B7B7B7;
+padding:100px 0;
+}
+.servise-icon img{
+	width:100%;
+}
+.servise-icon{
+	position:relative;
+	overflow:hidden;
+	
+	
+}
+.servise-overlay{
+	position:absolute;
+	background:rgba(0,0,0,.5);
+	width:100%;
+	height:100%;
+	top:-100%;
+	transition:.5s;
+}
+.servise-icon:hover .servise-overlay{
+	top:0;
+}
+.servise{
+	position:absolute;
+	left:35%;
+	bottom:-100%;
+	transition:.7s;
+}
+.servise i {
+	width:40px;
+	height:40px;
+	border:1px solid #fff;
+	border-radius:100%;
+	font-size: 26px;
+	line-height: 39px;
+	padding-left: 3px;
+	color:#5CEA39;
+
+}
+.servise-icon:hover .servise{
+	bottom:40%;
+}
+.servise i:hover{
+	background:#fff;
+	border:1px solid #fff;
+	transition:.7s;
+}
+/* ---- portfolio css start ---- */
+
+* { box-sizing: border-box; }
+
+
+/* ---- button ---- */
+#portfolio{
+	padding:100px 0;
+}
+#portfolio p{
+	max-width:700px;
+	margin:0px auto;
+	margin-bottom:30px;
+	
+}
+#portfolio h2{
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  background: #000;
+  border: none;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 14px;
+  outline:none;
+  cursor: pointer;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+	
+}
+
+.button:hover {
+  background-color: #87d37c;
+  color: #fff;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #87d37c;
+}
+
+.button.is-checked {
+  color: white;
+  
+}
+
+
+
+/* ---- button-group ---- */
+
+.button-group {
+  margin-bottom: 20px;
+}
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+border-radius: 0;
+margin-left: 10px;
+margin-right: 1px;
+
+}
+
+
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  float: left;
+  width:33%;
+  color: #262524;
+  border:20px solid #fff;
+  overflow:hidden;
+}
+.element-item img{
+	width:100%;
+}
+
+
+/* isotop img overlay css start*/
+.isotop-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.7);
+	top: -100%;
+	transition: .5s;
+}
+.isotop-overlay h2{
+	
+	color:#6df66d;
+	margin-top:135px;
+}
+.element-item:hover .isotop-overlay{
+	top:0;
+}/* isotop img overlay css end*/
+
+
+/* ---- portfolio css end ---- */
+
+
+
+
+/* ---- pricing css start ---- */
+
+#pricing-table{
+	color:#030303;
+	padding:100px 0;
+
+}
+.pricing-top h2{
+	text-transform:uppercase;
+	font-weight:bold ;
+	font-size:36px;
+}
+.pricing-top p{
+	font-size:16px;
+	max-width:700px;
+	margin:0 auto;
+	margin-bottom:60px;
+	
+}
+.pricing{
+	
+	background:#091409e6;
+	padding:20px;
+	border-radius:5px;
+	color: white;
+	transition:.5s;
+}
+.pricing-top1{
+	
+	border-radius: 63px;
+	width: 118px;
+	height: 118px;
+	margin: 0px auto;
+	border: 3px solid #fff;
+	transition:.5s;
+}
+.pricing-top1 p{
+	margin-top: 22px;
+}
+.pricing-top1 sup{
+	top: 3px;
+font-size: 21px;
+}
+.pricing-top1 em{
+	font-size: 25px;
+}
+.pricing-top1 h3{
+	margin-top: -53px;
+text-transform: uppercase;
+font-size: 15px;
+}
+.yyy{
+	
+    padding-left: 1px;
+padding-top: 11px;
+list-style: none;
+}
+.zzz{
+	
+    
+}
+.pricing ul li{
+
+border-bottom: 3px solid #abb16e;
+font-size: 18px;
+margin-left: 16px;
+margin-right: 16px;
+margin-bottom: 19px;
+}
+
+.btn{
+display: inline-block;
+padding: 6px 54px;
+margin-bottom: 0;
+font-size: 18px;
+text-align: center;
+cursor: pointer;
+border-radius: 0px;
+background: gray;
+}
+
+.btn:hover{
+	color: #14f01e;
+text-decoration: none;
+background: #b842cf;
+}
+
+
+.pricing:hover{
+background: #a361da;
+color: white;
+
+}
+
+.pricing:hover .pricing-top1{
+	background: #deb0e7;
+color: #f60c0c;
+}
+
+/* ---- pricing css end ---- */
+
+
+
+
+
+/* ---- counterup css start ---- */
+
+#counterup{
+	background:url("../img/5.jpg")no-repeat;
+}
+
+
+.counter-overlay{
+	background-color:rgba(0,0,0,.5);
+	width:100%;
+}
+
+.counter-content{
+	padding-top:100px;
+	padding-bottom:230px;
+}
+
+.count{
+	border:1px solid #5f5a58;
+	color:#fff;
+	padding:15px 0px;
+	background-color:rgba(0,0,0,.7);
+}
+
+.count span{
+	font-size:30px;
+}
+.count h3{
+	font-size:20px;
+}
+
+/* ---- counterup css end ---- */
+
+
+/* ---- contact us css start ---- */
+
+#contact-us{
+	padding:100px 0px;
+}
+.about-top p{
+	padding-top:20px;
+}
+
+.contact-content i{
+	font-size:45px;
+	line-height:60px;
+	color:#232424;
+}
+
+.contact-content h3{
+	text-transform: uppercase;
+	font-weight:bold;
+	
+}
+.contact-content h4{
+
+	font-size:19px;
+}
+
+.contact-content i,h3{
+	transition:.5s;
+}
+
+
+
+.contact-content:hover i,
+.contact-content:hover h3{
+	color:#87d37c;
+}
+
+
+/* ---- contact us css end ---- */
+
+
+/* ---- contact form css start ---- */
+#contact-form{
+
+	padding:80px 0;
+	background-color:#d5d4ef;
+	
+}
+
+
+.form-control:focus {
+    border-color: #fff;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+.form-control{
+	
+	border-radius:0px;
+	padding:15px;
+	margin:15px 0px;
+	border:1px solid #fff;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+	
+}
+.textarea textarea{
+	height: 75px;
+}
+.textarea button{
+margin-top:3px;	
+background: #33ef49;
+border: none;
+color: white;
+padding: 6px 10px;
+}
+
+.btn-default{
+	border-color: #fff;
+background: #33ef49;
+text-transform: uppercase;
+}
+.btn-default:hover{
+	
+color: white;
+text-decoration: none;
+background: #33ef49;
+}
+/* ---- contact form css end ---- */
+
+
+/* ---- map css start ---- */
+
+#map{
+	width:100%;
+	height:400px;
+	
+}
+
+/* ---- map css end ---- */
+
+
+
+/*--scroll system css start --*/
+.scrollup{
+	width: 50px;
+	height: 45px;
+	color: #ffffff;
+	font-size: 38px;
+	background:#87d37c;
+	text-align:center;
+	position:fixed;
+	bottom:89px;
+	right:-1px;
+	
+}
+
+
+
+
+/*--scroll system css end --*/
+
+
+
+/* ---- footer css start ---- */
+
+#footer{
+	background:black;
+	padding:30px 0;
+	color:white;
+}
+.footer-text p{
+	
+}
+.footer-icon i{
+	font-size:20px;
+	margin:0 5px 0 5px;
+}
+
+
+.footer-icon i:hover{
+	color:green;
+}
+
+/* ---- footer css end ---- */
